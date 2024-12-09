@@ -1,0 +1,35 @@
+.input-container{
+    display: flex;
+}
+
+.input-box-todo{
+  
+    font-size: 18px;
+    border-radius: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+}
+
+
+
+.add-btn {
+    width: 40px; /* Ensure the width and height are equal */
+    height: 40px;
+    font-size: 22px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Makes the button a circle */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+   margin-left: 10px;
+  }
+
+  .add-btn:hover{
+    background-color: #218838;
+  }
